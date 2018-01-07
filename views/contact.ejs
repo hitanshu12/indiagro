@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<% include partials/head %>
+	<body>
+		<!--Page Wrapper Start-->
+		<div id="wrapper">
+			<% include partials/header %>
+			<!-- banner -->
+			<div class="banner">
+				
+			</div>
+			<!--Content Area Start-->
+			<div id="content">				
+				<div class="contact_us">
+					<div class="container">
+						<h3>Appointment From</h3>
+						<div class="row">
+							<div class="col-xs-12 col-md-8">
+								<form class="form-horizontal" id="emailForm" action="/contact" method="POST" role="form">
+									<div class="col-md-6">
+										<div class="form-group">                        
+											<input type="text" class="form-control" id="fullname" name="fullname" placeholder="Your Full Name">                        
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">                        
+											<input type="text" class="form-control" id="phonenumber" name="phonenumber" placeholder="Phone Number">                        
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">                        
+											<input type="email" class="form-control" id="emailadd" name="emailadd" placeholder="Your Email">                        
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">                        
+											<select class="form-control" id="services" name="services" placeholder="Select Services">  
+												<option value="">Select Product</option>  
+												<option value="Tea">Tea</option>
+												<option value="Rice">Rice</option>
+												<option value="Indian Spices">Indian Spices</option>
+												<option value="Olive Oil">Olive Oil</option>   
+												<option value="Honey">Honey</option>
+												<option value="Yellow Peas">Yellow Peas</option>
+												<option value="Yellow Maize">Yellow Maize</option>
+											</select>                 
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="form-group">
+											<textarea rows="4" maxlength="250" class="form-control" id="enquiry" name="enquiry" placeholder="Enquiry"></textarea>
+										</div>
+									</div>    
+									<div class="col-md-12">
+										<button type="submit" class="btn btn-default contact_btn" style="margin-top:0;">Submit</button>
+									</div>
+								</form>
+							</div>
+							<div class="col-xs-12 col-md-4">
+								<div class="green_contact">
+									<h4>Touch With Us</h4>
+									<div class="row bdrbtm">
+										<div class="col-md-6">Monday - Friday</div>
+										<div class="col-md-6">9:00  17:00</div>
+									</div>
+									<div class="row bdrbtm">
+										<div class="col-md-6">Phone Number</div>
+										<div class="col-md-6">+91-120-4540089</div>
+									</div>
+									<div class="row bdrbtm">
+										<div class="col-md-6">Email</div>
+										<div class="col-md-6">
+											<a href="mailto:office@indiagro.store">
+												Office@indiagro.store
+											</a>
+										</div>
+									</div>
+									<ul class="cont_social header-social-icon">
+										<li> 
+											<a href="#">
+												<i class="fa fa-facebook" aria-hidden="true"></i>
+											</a>
+										</li>
+										<li> 
+											<a href="#">
+												<i class="fa fa-twitter" aria-hidden="true"></i>
+											</a>
+										</li>
+										<li> 
+											<a href="#">
+												<i class="fa fa-instagram" aria-hidden="true"></i>
+											</a>
+										</li>
+										<li> 
+											<a href="#">
+												<i class="fa fa-skype" aria-hidden="true"></i>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7002.872486308872!2d77.33174412297826!3d28.646653845224616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sAnsal+Plaza%2C+Vaishali%2C+Ghaziabad%2C+Uttar+Pradesh%2C+India!5e0!3m2!1sen!2sin!4v1513883267168" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+			<!--Content Area End-->
+
+			<!--Footer Section Start-->
+			<% include partials/footer %>			
+			<!--Footer Section End-->
+		</div>
+		<!--Page Wrapper End-->
+
+		
+	</body>
+</html>
